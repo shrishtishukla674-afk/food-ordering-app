@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodIt | Restaurant Menu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700&family=Nunito:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="hero-body">
+
+  <div class="list-page">
+    <h1 id="restaurant-name" class="list-title"></h1>
+    <p id="restaurant-subtitle" class="list-subtitle"></p>
+
+    <div class="food-list" id="menu-container"></div>
+
+    <div class="page-actions">
+      <button class="next-btn" onclick="goToCart()" type="button">Go to Cart (<span id="cart-count">0</span>)</button>
+      <button class="back-btn" onclick="goBack()" type="button">Back</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

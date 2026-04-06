@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodIt | Sign Up</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700&family=Nunito:wght@500;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="center-page">
+    <div class="container">
+      <div class="logo" aria-label="FoodIt Logo">
+        <span class="icon">🍽️</span>
+        <span class="brand">FoodIt</span>
+      </div>
+
+      <h1 class="page-title">Sign Up</h1>
+
+      <form onsubmit="signup(); return false;">
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Full Name" class="input-field" required>
+
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="Email" class="input-field" required>
+
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="Password" class="input-field" required>
+
+        <button type="submit" class="next-btn">Create Account</button>
+      </form>
+
+      <button class="back-btn" onclick="goBack()">Back</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
